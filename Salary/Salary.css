@@ -1,0 +1,98 @@
+.wrapper{
+    margin: 0 auto;
+    width: 1000px
+}
+
+.ground{
+    background-color: #CCFFFF;
+    height: 600px;
+}
+
+.header{
+    font-size:50px;
+    float: auto;
+    margin-top: 40px;
+    height: 100px;
+    margin-left: 350px;
+    padding-top: 40px;
+}
+
+.center{
+    width: 700px;
+    height: 380px;
+    margin-left: 150px;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.main{
+    padding-top: 30px;
+    margin-left: 120px;
+    font-size:20px;
+}
+
+.left{
+    width: 200px;
+    height: 450px;
+    float: left;
+}
+
+.right{
+    width: 350px;
+    height: 450px;
+    float: right;
+
+}
+
+.kyuyo{
+    width:350px;
+    height:30px;
+}
+
+.zei{
+    width:350px;
+    height:30px;
+    margin-top: 40px;
+}
+
+.hoken{
+    width:350px;
+    height:30px;
+    margin-top: 40px;
+}
+
+.koutu{
+    margin-left: 50px;
+}
+
+.sougaku{
+    width:350px;
+    height:30px;
+    margin-left: 50px;
+}
+
+.kouhubi{
+    width:350px;
+    height:30px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.next{
+    font-size:15px;
+    margin-top: 70px;
+    margin-left: 30px;
+    padding: 5px 20px 5px 20px;
+    background-color: #FFFF55;
+
+}
+
+.back{
+    font-size:15px;
+    margin-right: 100px;
+    margin-top: 70px;
+    padding: 5px 20px 5px 20px;
+    background-color: #99FF00;
+    float: right;
+}
+
