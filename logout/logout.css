@@ -1,0 +1,47 @@
+.wrapper{
+    margin: 0 auto;
+    width: 1000px
+}
+
+.ground{
+    background-color: #CCFFFF;
+    height: 600px;
+}
+
+.header{
+    font-size:50px;
+    float: auto;
+    height: 200px;
+    margin-left: 380px;
+    padding-bottom: 20px;
+}
+
+.image{
+    padding-top: 20px;
+    height: 80px;
+    margin-left: 85px; 
+}
+
+
+.center{
+    width: 500px;
+    height: 300px;
+    margin-left: 250px;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.main{
+    padding-top: 30px;
+    margin-left: 110px;
+    font-size:30px;
+}
+
+
+.footer{
+    font-size:20px;
+    width: 250px;
+    margin-left: 15px;
+    background-color: #99FF00;
+}
+
