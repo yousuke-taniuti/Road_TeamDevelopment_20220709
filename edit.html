@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="edit.css">
+    <title>社員編集・削除</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="ground">
+            <div class="header">
+                <div class="userName">
+                    <a href="">ユーザー名|</a><a href="">logout</a>
+                </div>          
+            </div>
+            <div class="edit">
+                <p>社員編集・削除</p>
+            </div>
+            <div class="center">
+                <div class="main clearfix">
+                    <div class="main-left">
+                        <!--valueの部分はすでに登録してある情報を表示させる-->
+                        <label for="user_id">ユーザーID</label><br>
+                        <input class="user_id" type="text" name="user_id" value="" size="22" ><br>
+
+                        <label for="full_name">名前</label><br>
+                        <input class="full_name" type="text" name="full_name" value="" size="22" ><br>
+
+                        <label for="name_katakana">カナ</label><br>
+                        <input class="name_katakana" type="text" name="name_katakana" value="" size="22" ><br>
+
+                        <label for="password">パスワード</label><br>
+                        <input class="password" type="password" name="password" value="" size="22" ><br>
+
+                        <label for="email">メールアドレス</label><br>
+                        <input class="email" type="text" name="email" value="" size="22" ><br>
+                    </div>
+
+                    <div class="main-right clearfix">
+                        <!--valueの部分はすでに登録してある情報を表示させる-->
+                        <label for="birthday">生年月日</label><br>
+                        <input class="birthday" type="text" name="birthday" value="" size="22" ><br>
+
+                        <label for="sex">性別</label><br>
+                        <input class="sex" type="text" name="sex" value="" size="22" ><br>
+
+                        <label for="from">出身地</label><br>
+                        <input class="from" type="text" name="from" value="" size="22" ><br>
+
+                        <div class="position-left">
+                            <label for="position">役職</label><br>
+                            <input class="position" type="text" name="position" value="" size="8" ><br>
+                        </div>
+                       
+                        <div class="department-right">
+                            <label for="department">部署</label><br>
+                            <input class="department" type="text" name="department" value="" size="8" ><br>
+                        </div>
+
+                        <div class="start_day">
+                            <label for="hire_date">入社日</label><br>
+                            <input class="hire_date" type="text" name="hire_date" value="" size="22" ><br>
+                        </div>
+                           
+                       
+                    </div>
+                    
+                    <div class="botton clearfix">
+                        <input class="left-footer" type="submit" name="change" value="変更">
+                        <input class="right-footer" type="submit" name="delete" value="削除">
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
